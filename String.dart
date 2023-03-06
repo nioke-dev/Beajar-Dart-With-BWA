@@ -46,4 +46,8 @@ void main(List<String> args) {
 
 // Mengecek apakah diakhiri dengan String/Karatker tertentu
   print(nama.endsWith('Mustofa'));
+
+  var kosong = '';
+
+  print(kosong.isEmpty);
 }
