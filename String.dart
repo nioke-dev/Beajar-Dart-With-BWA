@@ -48,6 +48,9 @@ void main(List<String> args) {
   print(nama.endsWith('Mustofa'));
 
   var kosong = '';
-
+// cek apakah string tersebut kosong
   print(kosong.isEmpty);
+
+// cek apakah string tersebut tidak kosong
+  print(kosong.isNotEmpty);
 }
